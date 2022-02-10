@@ -1,0 +1,26 @@
+<single-spa-router>
+  <main>
+    <route default>
+      <application name="@nav-bar/nav-bar"></application>
+      <div class="react-container">
+        <application name="@home/home"></application>
+      </div>
+    </route>
+    <route path="/login" exact>
+      <application name="@login/login"></application>
+    </route>
+    <route path="/employees" exact>
+      <application name="@nav-bar/nav-bar"></application>
+      <div class="react-container">
+        <application name="@react-app/react-app"></application>
+      </div>
+    </route>
+    <route path="/employees/:id" exact>
+      <application name="@nav-bar/nav-bar"></application>
+      <div class="react-container">
+        <application name="angular-app"></application>
+      </div>
+    </route> 
+    
+  </main>
+</single-spa-router>
