@@ -1,0 +1,19 @@
+.logo {
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    display: block;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.logo img {
+    float: left;
+}
+.logo-text {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
+    float: left;
+}
